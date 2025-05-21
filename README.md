@@ -57,3 +57,4 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+AmeriGas is your go-to online store for quality products at great prices. Shop electronics, fashion, home goods, and more. Enjoy secure payments, fast delivery, and excellent customer service. Discover convenience and value—only at AmeriGas.
