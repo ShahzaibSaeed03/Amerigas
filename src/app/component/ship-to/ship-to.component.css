@@ -1,0 +1,93 @@
+:host ::ng-deep .mat-dialog-container {
+  padding: 0 !important;
+  border-radius: 8px;
+  max-width: unset !important;
+  width: auto !important;
+  overflow: visible !important;
+}
+
+.dialog-container {
+  background: white;
+  padding: 24px;
+  max-width: 1000px;
+  border-radius: 8px;
+  width: 90vw;
+  height: 30vw;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.search-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+  align-items: center;
+}
+
+.search-section input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-btn {
+  padding: 8px 12px;
+  border: none;
+  background: #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dropdown label {
+  background: #f1f1f1;
+  padding: 8px;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th, table td {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px;
+  text-align: left;
+}
+
+.choose-btn {
+  padding: 6px 12px;
+  border: 1px solid #007bff;
+  background: white;
+  color: #007bff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.back-btn {
+  padding: 8px 16px;
+  background: #444;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.new-btn {
+  padding: 8px 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}

@@ -1,0 +1,337 @@
+<div class="top-bar">
+  <div class="left-section">
+    <span class="back-icon">&#8249;</span>
+    <div class="requisition-title-container">
+      <label for="requisition-title">Requisition title: <span class="required">*</span></label>
+      <input id="requisition-title" type="text" value="BlueDEF BULK ToteFill" />
+    </div>
+  </div>
+
+  <div class="right-section">
+    <div class="total-cost">
+      Total Cost: <span class="amount">₹12200</span> <span class="currency">INR</span>
+    </div>
+    <button class="submit-btn">Submit</button>
+    <button class="save-exit-btn">Save and exit</button>
+  </div>
+</div>
+
+<div class="checkout-line">Checkout / <span class="pr-id">PR332768</span></div>
+
+<hr class="divider" />
+
+<div class="location-table">
+  <div class="location-section" (click)="openShipToDialog()">
+    <div class="location-header">
+      <span class="title">Ship to</span>
+      <a class="link" href="#" (click)="$event.stopPropagation()">Manage locations</a>
+    </div>
+    <div class="location-body">
+      <p>
+        500 N GULPH RD<br />
+        KING OF PIRSSS, PA 1255478-889<br />
+        United States
+      </p>
+    </div>
+  </div>
+
+
+<div class="location-section">
+  <div class="location-header">
+    <span class="title">Charge to</span>
+    <a class="link" href="#">Manage details</a>
+  </div>
+  <div class="location-body">
+    <p>500 N GULPH RD<br />
+      KING OF PIRSSS, PA 1255478-889<br />
+      United States</p>
+  </div>
+</div>
+
+<div class="cost-section">
+  <div class="cost-header">
+    <span>Total Cost</span>
+    <span class="cost">125.22 IND</span>
+  </div>
+</div>
+</div>
+
+<div class="form-section">
+  <div class="form-column">
+    <div class="form-group">
+      <label>Need-by Date</label>
+      <input type="date" />
+    </div>
+    <div class="form-group">
+      <label>On Behalf Of</label>
+      <select>
+        <option>Ananaya Das</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label>Shipping Handling</label>
+      <select>
+        <option>Ananaya Das</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="form-column">
+    <div class="form-group">
+      <label>Deliver To</label>
+      <input type="text" value="Ananaya Das" />
+    </div>
+    <div class="form-group">
+      <label>Company Code</label>
+      <select>
+        <option>OLPR (AmeriGas Propane LP)</option>
+      </select>
+    </div>
+  </div>
+</div>
+
+<section class="items-section">
+  <div class="items-header">
+    <h2>Items (1)</h2>
+  </div>
+
+  <div class="item-row">
+    <div class="item-icon">&#9660;</div> <!-- Down arrow -->
+
+    <div class="item-logo">
+      <img src="svg/forever_logo.svg" alt="forever_logo.svg" />
+    </div>
+
+    <div class="item-details">
+      <div class="item-name">Diesel Exhaustive Fuel (DEF)</div>
+      <div class="item-desc">From Old World Industries Holdings LLC</div>
+    </div>
+
+    <div class="item-quantity">
+      <label>Quantity</label>
+      <div class="qty-input">
+        <button>-</button>
+        <input type="text" value="10" />
+        <button>+</button>
+      </div>
+    </div>
+
+    <div class="item-price">
+      <label>Price</label>
+      <div>₹12200 <span>INR</span></div>
+    </div>
+
+    <div class="item-amount">
+      <label>Amount</label>
+      <div>12200 <span>INR</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="supplier-section">
+  <div class="supplier-grid">
+    <div class="supplier-left">
+      <label class="field-label">Contact</label>
+      <select class="custom-select">
+        <option>OLD WORLD INDUSTRIES</option>
+        <!-- Add more options if needed -->
+      </select>
+      <div class="supplier-address">
+        500 N GULPH RD<br />
+        KIMG OF PIRSSS, PA 1255478-889<br />
+        United States
+      </div>
+    </div>
+
+    <div class="supplier-right">
+      <label class="field-label">Supplier Part Number</label>
+      <div class="part-number">DFRT445OI</div>
+    </div>
+  </div>
+
+  <div class="aux-id-label">Supplier Part Auxiliary ID</div>
+
+  <!--<hr class="section-divider" /> -->
+</section>
+
+<section class="accounting-section">
+  <div class="accounting-header">
+    <span class="collapse-icon">▾</span>
+    <span class="section-title">Accounting</span>
+    <span class="gl-info">GL Account (522487963) (Project Expensed)</span>
+  </div>
+
+  <div class="accounting-grid">
+    <div class="grid-left">
+      <label class="field-label">Type of Purchase</label>
+      <select class="custom-select">
+        <option></option>
+      </select>
+
+      <label class="field-label">GL Account</label>
+      <select class="custom-select">
+        <option>00000255566 (Project Expenses)</option>
+      </select>
+
+      <a href="#" class="split-link">Split accounting</a>
+    </div>
+
+    <div class="grid-right">
+      <label class="field-label">Account Assignment</label>
+      <div class="assignment-value">Project</div>
+
+      <label class="field-label">Type of Purchase</label>
+      <select class="custom-select">
+        <option>Capital</option>
+      </select>
+    </div>
+  </div>
+</section>
+
+<section class="shipping-section">
+  <div class="shipping-header">
+    <span class="collapse-icon">▾</span>
+    <span class="section-title">Shipping</span>
+    <span class="ship-detail">Ship To(Plant) (98856-556 (All Religions - Authorized))</span>
+  </div>
+
+  <div class="shipping-grid">
+    <div class="grid-left">
+      <label class="field-label">Ship To(Plant) *</label>
+      <select class="custom-select">
+        <option>OLD WORLD INDUSTRIES</option>
+      </select>
+      <address class="address-info">
+        500 N GULPH RD<br />
+        KIMG OF PIRSSS, PA 1255478-889 United States
+      </address>
+
+      <label class="field-label">Need-by Date</label>
+      <input type="date" class="custom-input" />
+    </div>
+
+    <div class="grid-right">
+      <label class="field-label">Deliver To *</label>
+      <select class="custom-select">
+        <option>kumar</option>
+      </select>
+
+      <label class="field-label">Purchase Group</label>
+      <select class="custom-select">
+        <option>OLD WORLD INDUSTRIES</option>
+      </select>
+    </div>
+  </div>
+</section>
+
+<!-- Comments Section -->
+<section class="panel-section">
+  <div class="panel-header">
+    <span class="collapse-icon">▾</span>
+    <span class="panel-title">Comments</span>
+  </div>
+  <div class="panel-body">
+    <textarea placeholder="Write your comment...." class="comment-box"></textarea>
+    <div class="panel-actions">
+      <label><input type="checkbox" /> Share with supplier</label>
+      <button class="add-button">Add</button>
+    </div>
+  </div>
+</section>
+
+<!-- Attachments Section -->
+<section class="panel-section">
+  <div class="panel-header">
+    <span class="collapse-icon">▾</span>
+    <span class="panel-title">Attachments</span>
+  </div>
+  <div class="panel-body">
+    <div class="drop-zone">Drag and drop images.....</div>
+    <div class="panel-actions">
+      <label><input type="checkbox" /> Share with supplier</label>
+      <button class="add-button">Add</button>
+    </div>
+  </div>
+</section>
+
+<div class="approval-flow">
+  <div class="approval-header">
+    <span class="title">Approval Flow</span>
+    <span class="instruction">Click on the line to add approvers</span>
+  </div>
+  <div class="approval-line">
+    <div class="approver-circle filled"></div>
+    <div class="dotted-line"></div>
+    <div class="approver-circle center-icon">
+      <i class="fa fa-users"></i>
+    </div>
+    <div class="dotted-line"></div>
+    <div class="approver-circle filled"></div>
+  </div>
+</div>
+
+<div class="section others">
+  <h3 class="section-title">Others</h3>
+  <div class="form-grid">
+    <div class="form-group">
+      <label for="itemCategory">Item Category *</label>
+      <select id="itemCategory">
+        <option>Material</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="materialGroup">Material Group</label>
+      <input type="text" id="materialGroup" value="20014 (Fac Magnt-clng suppt))" />
+    </div>
+
+    <div class="form-group">
+      <label for="incotermsCode">Incoterms Code</label>
+      <select id="incotermsCode">
+        <option>(No value)</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="paymentTerms">Payment Terms</label>
+      <select id="paymentTerms">
+        <option>(No value)</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="purchOrg">Purch Org</label>
+      <select id="purchOrg">
+        <option>NO value</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="incotermsLocation">Incoterms Location</label>
+      <input type="text" id="incotermsLocation" />
+    </div>
+
+    <div class="form-group">
+      <label for="contract">Contract</label>
+      <select id="contract">
+        <option>(no value)</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="lineItemText">Line Item Text</label>
+      <textarea id="lineItemText"></textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="materialNumber">Material Number</label>
+      <input type="text" id="materialNumber" />
+    </div>
+
+    <div class="form-group">
+      <label>Billing Address</label>
+      <p class="billing-address">AmeriGAS PROPANE, LP KING OF PRUSSIA</p>
+    </div>
+  </div>
+</div>
+

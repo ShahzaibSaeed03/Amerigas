@@ -1,0 +1,45 @@
+<div class="dialog-container">
+  <h2>Ship To(Plant)</h2>
+
+  <div class="search-section">
+    <div class="dropdown">
+      <button> ID  </button>
+    </div>
+    <input type="text" placeholder="Search for Ship To (Plant)" />
+    <button class="search-btn">🔍</button>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Street</th>
+        <th>City</th>
+        <th>State</th>
+        <th>Postal Code</th>
+        <th>Country</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let row of address">
+        <td>{{ row.id }}</td>
+        <td>{{ row.name }}</td>
+        <td>{{ row.street }}</td>
+        <td>{{ row.city }}</td>
+        <td>{{ row.state }}</td>
+        <!-- <td>{{ row.postal }}</td> -->
+        <td>{{ row.country }}</td>
+        <td>
+          <button class="choose-btn">Choose</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="footer">
+    <button class="back-btn">Back</button>
+    <button class="new-btn">New</button>
+  </div>
+</div>
